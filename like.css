@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+text-align: center;
+background-image: url(https://wallpapercave.com/wp/wp6992998.png);
+background-size: cover;
+}
+
+.wrapper{
+	width:1170px;
+	margin:0 auto;
+}
+header{
+		height:100px;
+		background: #262626;
+		width: 100%;
+		z-index:12;
+		position:fixed;
+}
+.logo{
+		width: 30%;
+		float: left;
+		line-height: 100px;
+		
+}.logo a{
+		text-decoration: none;
+		font-size: 30px;
+		font-family:Times New Roman;
+		color:#fff;
+		letter-spacing:10px;
+}
+nav{
+		float: right;
+		line-height:100px;
+}
+nav a{
+		text-decoration: none;
+		font-family:Times New Roman;
+		letter-spacing: 4px;
+		font-size: 20px;
+		margin: 0 10px;
+		color:#FFFFFF;
+	}
+.banner-area p{
+		padding-top: 8%;
+		font-size: 20px;
+		font-family: Verdana;
+		text-align: justify;
+		margin-left:120px;
+		margin-right: 120px;
+}.content-area{
+		width: 100%;
+		position:relative;
+		top: 450px;
+		background:#ddd;
+		height:1500px;
+		font-family: bignoodletling;
+		letter-spacing: 4px;
+		padding-top:30px;
+		
+}@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #FFF;
+}
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/JUnLuAEjsbUcM/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
